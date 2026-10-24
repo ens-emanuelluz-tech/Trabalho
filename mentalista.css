@@ -38,6 +38,10 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
+<<<<<<< HEAD
+=======
+    color: silver;
+>>>>>>> 9ae8fe4 (Commit inicial)
 }
 
 .contentsection {
@@ -56,8 +60,13 @@ header {
 }
 
 img {
+<<<<<<< HEAD
   max-width: 239px; 
   height: auto;  
+=======
+    max-width: 239px;
+    height: auto;
+>>>>>>> 9ae8fe4 (Commit inicial)
 }
 
 .texto {
@@ -77,6 +86,7 @@ footer {
     justify-content: space-around;
     padding: 15px;
     align-items: center;
+<<<<<<< HEAD
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -89,6 +99,19 @@ footer {
 
     .texto, p {
         text-align: e;
+=======
+    color: silver;
+}
+
+@media (max-width: 768px) {
+   body {
+        font-size: 14px;
+    }
+
+    .texto,
+    p {
+        text-align: center;
+>>>>>>> 9ae8fe4 (Commit inicial)
     }
 
     .contentsection {
@@ -102,7 +125,25 @@ footer {
 
     .imagem {
         width: 100%;
+<<<<<<< HEAD
         height: 200px;
+=======
+        height: auto;
+    }
+
+    .grid-localizacao {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .mapa-container {
+        width: 100%;
+    }
+
+    .endereco-container {
+        height: auto;
+        text-align: center;
+>>>>>>> 9ae8fe4 (Commit inicial)
     }
 }
 
@@ -112,7 +153,11 @@ footer {
     }
 
     .menusection {
+<<<<<<< HEAD
         flex-direction: row;
+=======
+        flex-direction: column;
+>>>>>>> 9ae8fe4 (Commit inicial)
         height: auto;
         gap: 5px;
         padding: 5px;
@@ -123,6 +168,78 @@ footer {
         gap: 10px;
         text-align: center;
     }
+<<<<<<< HEAD
 }
 
 /* que poorra
+=======
+
+    .grid-localizacao {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .endereco-container {
+        height: auto;
+        text-align: center;
+    }
+    .mapa-container{
+        align-items:auto;
+    }
+}
+
+.localizacao-secao {
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.localizacao-secao h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.grid-localizacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    width: 100%;
+}
+
+.mapa-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-mapa {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.endereco-container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.endereco-container h3 {
+    margin: 0 0 10px 0;
+    color: silver;
+}
+
+.faq h2 {
+    text-align: center;
+}
+.detalhes summary{
+    color: silver;
+}
+>>>>>>> 9ae8fe4 (Commit inicial)
